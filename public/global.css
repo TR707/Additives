@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+ a, .check, input, button, textarea, .free, .blood, .placeholder {
+	font-size: 24px;
+	font-family: 'Patrick Hand', cursive, -apple-system, BlinkMacSystemFont, 
+				 "Segoe UI", Roboto, Oxygen-Sans 
+}
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: beige;
+}
+.free, input, .blood {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.check {
+	margin-top: 5px;
+	margin-bottom: 6px;
+}
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+}
+a:visited {
+	color: rgb(0,80,160);
+}
+label {
+	display: block;
+}
+.check, h1, .free {
+	color:black;
+}
+.blood {
+	color: red;
+}
+input, button, select {
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+input:disabled {
+	color: #ccc;
+}
+input {
+	border-radius: 6px;
+	padding: 5px 8px;
+}
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+button:disabled {
+	color: #999;
+}
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+button:focus {
+	border-color: #666;
+}
+.heart:before,
+  .heart:after {
+	content: "";
+	background-color: red;
+	border-radius: 50%;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+  }
+  .heart:before {
+	top: -25px;
+	left: 0;
+  }
+  .heart:after {
+	left: 25px;
+	top: 0;
+  }
+  @keyframes heartbeat {
+	0% {
+	  transform: scale( 1 );    
+	}
+	20% {
+	  transform: scale( 1.25 ) 
+		translateX(5%) 
+		translateY(5%);
+	} 
+	40% {
+	  transform: scale( 1.5 ) 
+		translateX(9%) 
+		translateY(10%);
+	}
+  }
+  .heart {
+	animation: heartbeat 1s infinite;
+	width: 80px;
+	display: block;
+	margin: 0px auto;
+  }
+
+@media screen and (max-width: 650px) {
+    .heart{
+		margin-bottom: 2px;
+		width: 40px;
+		justify-content: center;
+    }
+	}
+.animals {
+	border-radius: 10px;
+	margin: 0px auto;
+    display: block;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.triste {
+	width: 65px;
+	margin: 0px auto;
+    display: block;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+@media only screen and (max-width: 600px) {
+.animals {
+	width: 250px;
+	position: center;
+}
+.triste {
+	width: 40px;
+	position: center;
+}
+}
