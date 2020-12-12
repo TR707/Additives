@@ -4,8 +4,34 @@
     "description": "Search for vegetal origin additives",
     "icons": [
         {
-            "src": "favicon.png",
+            "src": "img/Favicons/play/favicon_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+
+        },
+        {
+            "src": "img/Favicons/xxxhdpi/favicon_192x192.png",
             "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "img/Favicons/xxhdpi/favicon_144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+
+        },
+        {
+            "src": "img/Favicons/xhdpi/favicon_92x92.png",
+            "sizes": "92x92",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "img/Favicons/hdpi/favicon_72x72.png",
+            "sizes": "72x72",
             "type": "image/png",
             "purpose": "any maskable"
         }
