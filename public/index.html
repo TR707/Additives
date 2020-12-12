@@ -10,6 +10,30 @@
 	<link rel='stylesheet' href='/global.css'>
 	<link rel='stylesheet' href='/build/bundle.css'>
 
+
+	<!--
+		Start PWA related lines
+	-->
+	<link rel='manifest' href='webmanifest.json'>
+
+	<!-- For Windows icon -->
+	<meta name="msapplication-TileImage" content="favicon.png">
+	<meta name="msapplication-TileColor" content="#00ff00">	
+
+	<!-- iPhone icon -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Free-cruelty additives">
+	<link rel="apple-touch-icon" href="favicon.png" sizes="192x192">
+
+	<!--
+		If it's possible, run web worker for "local first" and "installable"
+	-->
+	<script defer src='runWorker.js'></script>
+
+	<!--
+		End PWA related lines
+	-->
+
 	<script defer src='/build/bundle.js'></script>
 </head>
 
