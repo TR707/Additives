@@ -120,21 +120,10 @@ button:focus {
 	align-content: center;
 	align-items: center;
 }
-.triste {
-	width: 65px;
-	margin: 0px auto;
-    display: block;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-}
 @media only screen and (max-width: 600px) {
 .animals {
 	width: 250px;
 	position: center;
 }
-.triste {
-	width: 40px;
-	position: center;
-}
+
 }

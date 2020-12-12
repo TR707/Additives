@@ -42,8 +42,7 @@
 			{/if}
 
 			{#if resultado === false}
-			<p class="blood">Watch out! Animal origin!</p>
-			<img src="../img/sad.png" alt="heart" class="triste">  
+			<p class="blood">Watch out! Animal origin!</p>  
 			{/if}
 </main>
 
